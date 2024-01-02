@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+:root {
+    --primary: #466C8C;
+    --secondary: #7AA5BF;
+    --third: #F29F05;
+    --fourth: #F28705;
+    --Fifth: #402504;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    background-color: var(--third);
+}
+.Container {
+    height: 100vh;
+}
+.HeaderContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    border-bottom: 2px solid var(--secondary);
+    padding-bottom: 25px;
+    height: 30%;
+}
+.Picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.İcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.İcons i {
+    font-size: 30px;
+}
+.BodyContainer {
+    display: flex;
+    height: 60%;
+
+}
+.Menu {
+    width: 25%;
+    border-right: 2px solid var(--secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.Content {
+    width: 75%;
+}
+.Menu > a {
+    text-decoration: none;
+}
+.FooterContainer {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Menu > a:hover {
+    color: var(--secondary);
+}
